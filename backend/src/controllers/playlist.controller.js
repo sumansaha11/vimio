@@ -274,7 +274,7 @@ const getPlaylistById = asyncHandler(async (req, res) => {
                 },
                 owner: {
                     username: 1,
-                    fullName: 1,
+                    fullname: 1,
                     "avatar.url": 1
                 }
             }
